@@ -64,10 +64,12 @@ button {
   position: absolute;
   display: none;
 }
-
+input:focus {
+  outline: none;
+}
 .invalid {
-  border: 1px solid red;
+  border: 2px solid red;
 }
 .valid {
-  border: 1px solid green;
+  border: 2px solid green;
 }
