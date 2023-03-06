@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Ch20x29_1</title>
+</head>
+
+<body>
+  <div class="container" id="container">
+    <h2>Register With Us</h2>
+    <label for="username">
+      Username <input type="text" name="username" id="username" minlength="3" placeholder="Enter username" required>
+      <div id="_username">Username must be at least 3 charactors</div>
+    </label>
+
+    <label for="email">
+      Email <input type="email" name="email" id="email" placeholder="Enter email" required>
+      <div id="_email">Email is not valid</div>
+    </label>
+
+    <label for="password">
+      Password <input type="password" name="password" id="password" minlength="6" placeholder="Enter password" required>
+      <div id="_password">Password must be at least 6 charactors</div>
+    </label>
+
+    <label for="confirm">
+      Confirm Passwoed <input type="password" name="confirm" id="confirm" placeholder="Enter password again" required>
+      <div id="_confirm">Password doest match</div>
+    </label>
+    <button id="submit">Submit</button>
+  </div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
